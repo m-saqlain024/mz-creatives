@@ -1,0 +1,188 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+/* ===========================nav bar styling start here ======================= */
+
+.nav__head{
+    width: 100%;
+    height: 100vh;
+    /* background-color: aqua; */
+}
+.nav{
+    width: 70%;
+    margin: 2% 15%;
+    display: flex;
+}
+.nav__logo{
+    color: black;
+}
+.nav__bar{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-left: 20%;
+    margin-top: 1%;
+}
+.nav__bar li {
+    font-size: 18px;
+    text-transform: capitalize;
+    margin: 0% 5%;
+}
+.nav__bar li:hover{
+    color: red;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.nav__content{
+    background-image: url('image/banner1.jpg');
+    height: 85%;
+    background-size: cover;
+    position: relative;
+    background-position: center -150px;
+opacity:1;    
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin: 0% 15%;
+    color: white;
+}
+.content__box{
+/* opacity:0.98;     */
+
+    width: 30%;
+    margin: 3% 0%;
+    font-size: 20px;
+}
+#nav__btn{
+    width: 56%;
+    height: auto;
+    padding: 5%;
+    font-size: 18px;
+    border: none;
+    text-align: left;
+    background-color: rgb(238, 186, 102);
+}
+/* ===========================nav bar styling end here ======================= */
+/* ===========================about us styling start  here ======================= */
+.about__us{
+    width: 80%;
+    margin: 0% 10%;
+}
+.about__header{
+    text-align: center;
+    margin: 3% 0%;
+}
+.about__header__box{
+    width: 100%;
+    margin: 3% 0%;
+    font-size: 20px;
+}
+.about__main{
+    display: flex;
+    justify-content:space-between;
+    width: 80%;
+    margin: 5% 10%;
+}
+.about__box1{
+    margin-left: -5%;
+    margin-right: 4%;
+}
+.about__box2{
+    font-size: 18px;
+    margin-left: 4%;
+}
+
+.about__box2 p{
+    margin: 10% 0%;
+}
+#about__btn{
+    width: 60%;
+    height: 10%;
+    font-size: 18px;
+    background-color: rgb(15, 199, 15);
+    border: none;
+    color: white;
+}
+/* ===========================about us styling end here ======================= */
+/* =========================== services  styling start here ======================= */
+.services{
+    width: 70%;
+    margin: 0% 15%;
+}
+.services__header{
+    text-align: center;
+    font-size: 18px;
+}
+.services__header h1{
+    font-size: 35px;
+    margin: 3% 0%;
+    text-transform: uppercase;
+}
+.services__boxes{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+
+}
+.services__box{
+    display: flex;
+    margin: 3% 0%;
+    width: 80%;
+}
+.services__box h3{
+    text-transform: capitalize;
+    margin: 0% 3%;
+}
+.services__box p{
+    margin: 3% 3%;
+}
+.services__box div{
+    margin: 5% 0%;
+}
+/* =========================== services  styling end here ======================= */
+/* =========================== creative  mind  styling end here ======================= */
+.creative__mind{
+    width: 70%;
+    margin: 0% 15%;
+}
+.creative__header{
+    text-align: center;
+    margin-top: 5%;
+}
+.creative__header h1{
+    text-transform: uppercase;
+    margin: 5% 0%;
+    font-size: 40px;
+
+}
+.creative__header p{
+    font-size: 18px;
+    margin-bottom: 5%;
+}
+.creative__content{
+    display: flex;
+    justify-content: center;
+}
+.creative__content img{
+    width: 100%;
+    /* padding: 0%; */
+   
+}
+.creative__content h1{
+    width: 70%;
+    text-align:  center;
+    font-size: 20px;
+    text-align: center;
+    margin: 10% 0%;
+}
+.creative__img{
+    width: 50%;
+    /* margin: 0% 5%; */
+    /* margin-left: 5%;
+    margin-right: 10%; */
+    
+}
+/* =========================== creative  mind  styling end here ======================= */
